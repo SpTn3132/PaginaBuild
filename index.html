@@ -11,25 +11,10 @@
         background-color: red;
         font-family: Arial, sans-serif;
       }
-      .game-title {
-        text-align: center;
-        font-size: 32px;
-        margin: 20px 0;
-        color: white;
-        font-weight: bold;
-      }
-      .game-description {
-        text-align: center;
-        margin: 20px auto;
-        max-width: 800px;
-        color: white;
-        font-size: 18px;
-        line-height: 1.5;
-      }
     </style>
   </head>
   <body>
-    <h1 class="game-title">Jueguito unity</h1>
+    <h1>Jueguito unity</h1>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
@@ -45,8 +30,8 @@
         <div id="unity-build-title">desweb</div>
       </div>
     </div>
-    <div class="game-description">
       <p>Hacer click</p>
+      <button id="soyUnBoton"> Soy un boton</button>
     </div>
     <script>
       var canvas = document.querySelector("#unity-canvas");
