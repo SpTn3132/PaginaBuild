@@ -6,7 +6,7 @@ function CambioColor()
       document.body.style.backgroundColor = "red";
       color = false;
       }else{
-      document.body.style.backgroundColor = "block";
+      document.body.style.backgroundColor = "black";
       color = true;
       }
 }
